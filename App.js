@@ -15,6 +15,7 @@ export default class App extends React.Component {
   render(){
     return (
       <View style={styles.container}>
+        <Text>Getting Location...</Text>
         <FetchLocation onGetLocation={this.getUserLocationHandler} />
       </View>
     );
